@@ -62,13 +62,14 @@ h5 a {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Limit to 2 lines */
-    -webkit-box-orient: horizontal;
+/*     -webkit-line-clamp: 2; /* Limit to 2 lines */ */
+    -webkit-box-orient: vertical;
     transition: max-height 0.3s ease-in-out;
   }
   
   .short-text.expanded {
     max-height: none; /* Expands when clicked */
+    display: block; /*Remove the clamping*/
   }
 
 
