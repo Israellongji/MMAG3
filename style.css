@@ -1,0 +1,399 @@
+body{
+  background-color:;
+  font-family: 'Times New Roman', Times, serif;
+}
+#head {
+    color: rgb(222, 99, 222);
+    text-decoration: none;
+}
+.offcanvas-start {
+    width: 250px;
+ 
+}
+.navbar {
+    background-color: rgb(222, 99, 222);
+}
+#offcanvasExample a { 
+    text-decoration: none;
+ 
+} 
+#navbarTogglerDemo01 a{
+    color: white;
+    font-size: 20px;
+}
+#for {
+    max-width: 400px; /* Prevents form from stretching too wide */
+
+}
+h2{
+  text-align: center;
+  margin-top: 5px;
+}
+.custom-card {
+    min-height: 500px; /* Adjust height as needed */
+    background-size: cover; /* Ensures image fills the card */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    /* color: rgb(228, 228, 22); Ensures text is readable */
+    position: relative; /* Keeps content inside properly */
+}
+.custom-card:hover {
+  transform: scale(0.95); /* Slight zoom effect on hover */
+  cursor: pointer;
+}
+#radius{
+  border-radius: 20px;
+} 
+
+.custom-card .card-body {
+    background: rgba(0, 0, 0, 0.5); /* Adds a slight overlay for better text contrast */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+h5 a {
+    color: white;
+    text-decoration: none;
+}
+.short-text {
+    max-height: 2.5em; /* Adjust for 2 lines (1.8em per line) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: horizontal;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .short-text.expanded {
+    max-height: none; /* Expands when clicked */
+  }
+
+
+ /* ------------------------------------------------Top chart-------------------------------------------------- */
+ .underline {
+  width: 200px;
+  height: 4px;
+  background: radial-gradient(circle, rgba(222, 99, 222, 1) 20%, rgba(222, 99, 222, 0.5) 60%, rgba(222, 99, 222, 0) 100%);
+  margin: 5px auto;
+  border-radius: 50px;
+  /* filter: blur(2px); */
+}
+ .star-rating {
+    font-size: 24px;
+    color: none; /* Gold color for stars */
+  }
+  .checked {
+    color: #FFD700; /* Gold color for checked stars */
+  }
+  #navbtn {
+    border-radius: 8px;
+  }
+  #for button {
+    border-radius: 10px;
+  }
+  #for input {
+    border-radius: 10px;
+  }
+
+  .video-container {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+}
+
+.rating {
+  color: gold;
+}
+.video-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+}
+.rating-container {
+  text-align: center;
+  color: gold;
+  margin-top: -5%;
+
+}
+.col:hover {
+  border: 2px solid #ff00ff;
+  box-shadow: 0px 0px 8px #ff00ff;
+  border-radius: 15px;
+}
+
+/*---------------------------- News Section ------------------------------------*/
+.title a {
+  color: black;
+}
+.news-thumbnail {
+  width: 100%;
+  height: 130px;
+  max-width: 130px; /* Adjust image size */
+}
+
+.news-content {
+  text-align: justify;
+  margin-left: 0; /* Brings text closer to image */
+}
+.news-item {
+  display: flex;
+  gap: 15px; /* Reduces space between image and text */
+}
+@media (max-width: 768px) {
+  .news-item {
+      flex-direction: column; /* Stacks items on mobile */
+      gap: 10px;
+  }
+  .news-content {
+      margin-left: 0; /* Removes left margin on small screens */
+  }
+}
+
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: black;
+}
+
+/*---------------------------- Trailer Slide Show -----------------------------------------*/
+
+#slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.slider-container {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  /* border: 2px solid #333; */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideFrame {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.controls {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slide-buttons {
+  padding: 10px;
+  border: none;
+  color: rgb(222, 99, 222);
+  cursor: pointer;
+  /* opacity: 0.7; */
+  font-size: 24px;
+}
+.slide-buttons:hover {
+  background-color: #555;
+  opacity: 1;
+}
+
+
+/*------------------------------------Login-------------------------------------------------------*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#logs {
+  text-align: center;
+}
+
+/* Set a style for all buttons */
+.logbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 45%;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.loginsi {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  /* margin-left: 45%; */
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.containerlog {
+  padding: 16px;
+}
+
+#logbtnspan.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 800px; /* Full width */
+  height: 1000px; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .button {
+    border-radius: 8px;
+    background-image: url(Images/sonic.JPG); 
+    background-size: cover; 
+    background-position: center;    
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    text
+    font-size: 28px;
+    padding: 80px;
+ 
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  } */
