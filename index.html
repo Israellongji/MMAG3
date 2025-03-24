@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMAG</title>
+    <link rel="icon" type="image/icon" href="Images/icons8-lotus-64.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+</head>
+<body>
+  <div class="container-fluid">
+      <div id="head" class="row bg-black ">
+          <div class="col-12">
+              <div class="text-center">
+                <img src="Images/icons8-lotus-64.png" alt="logo" class="img-fluid">
+                <H1>MMAG</H1>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!---------------------------------------------NAVIGATION----------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <!-- Button to open side nav -->
+      <button id="navbtn" class="btn btn-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+          ☰
+      </button>
+
+    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarTogglerDemo01">
+      <!-- Centered Navbar Links -->
+      <ul class="navbar-nav d-flex flex-row gap-4 w-100 justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="https://music.apple.com/ng/playlist/ill/pl.u-GgA5kAgho3MplWj">MUSIC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://netflix.com">MOVIES</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="https://ww8.gogoanimes.org">ANIMES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://oceansofgamess.com">GAMES</a>
+        </li>
+      </ul>
+
+      
+    </div>
+    <!-- Search Bar on the Right -->
+    <form id="for" class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-dark btn-outline-success" type="submit" style="color: rgb(222, 99, 222);;">Search</button>
+    </form>
+
+    </div>
+  </nav>
+
+    <!-- Side Navigation (Offcanvas) -->
+    <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="#" class="text-white">About</a></li>
+          <li><a href="#" class="text-white">Services</a></li>
+          <li><a href="#" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+  <!------------------------------------------------ UPDATE SECTION------------------------------------------------->
+  <br><h2>UPDATES</h2>
+  <!-- <div class="underline"></div> -->
+  <br>
+ 
+    
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Card 1   -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div id="radius" class="card custom-card" style="background-image: url(Images/solos.JPG);">
+          <div class="card-body">
+            <h5 class="card-title" >
+              <a href="#">SOLO LEVELING: EP-12</a>
+            </h5>
+            <p class="card-text short-text">They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that’s leveling him up in every way. Now, he’s inspired to discover the secrets behind his powers and the dungeon that spawned them.</p>
+            <button class="btn btn-link toggle-btn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div id="radius" class="card custom-card " style="background-image: url('Images/Pity.JPG');">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="#">PITY THIS BOY by ODUMODU ft VICTONY  </a>
+            </h5>
+            <p class="card-text short-text">OdumoduBlvck's collaboration with Victony, an award-winning superstar from Nigeria, enhances the song's appeal by contributing a captivating verse that flawlessly matches OdumoduBlvck's distinct style. A memorable musical experience is produced by the two artists' obvious chemistry.</p>
+            <button class="btn btn-link toggle-btn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div id="radius" class="card custom-card " style="background-image: url('Images/wukong3.JPG');">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="#">WUKONG-BLACK MYTH</a>
+            </h5>
+            <p class="card-text short-text">This is, undoubtedly, one of the most ambitious and impressive action games I’ve played. It’s stunningly gorgeous; its combat is fantastic; it's incredibly challenging, but always satisfying to overcome; and the setting is refreshingly unique and steeped in rich Chinese culture, just to sing a few of its praises. I’ve never been so utterly blown away, yet simultaneously so unbelievably frustrated by a game as I have been with Black Myth: Wukong</p>
+            <button class="btn btn-link toggle-btn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div id="radius" class="card custom-card " style="background-image: url('Images/captain.JPG');">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="#">CAPTAIN AMERICA: BRAVE NEW WORLD</a>
+            </h5>
+            <p class="card-text short-text">Anthony Mackie returns as the high-flying hero Sam Wilson, who’s officially taken up the mantle of Captain America. After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.</p>
+            <button class="btn btn-link toggle-btn">Read more</button>
+          </div>
+        </div>
+      </div>
+
+    </div>  
+  </div>  
+
+  <!---------------------------------------------TOPPING CHARTS----------------------------------------------------->
+<div id="topchart"><br>
+  <h2 id="charts">TOPPING CHARTS</h2>
+  <div class="underline"></div>
+  <div class="container-fluid mt-4">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+        <!-- Video 1 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/7Thq-SBtukg" title="The Six Triple Eight | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">The Six Triple Eight</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i> <!-- Empty star -->
+                </div>    
+         </div>
+
+                 <!-- Video 2 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/zvwDen1Wrx8" title="The Ministry Of Ungentlemanly Warfare (2024) Official Trailer - Starring Henry Cavill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">The Ministry of Ungentlemanly Warfare</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i> 
+                    <i class="far fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+
+                 <!-- Video 3 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/rze8QYwWGMs" title="KRAVEN THE HUNTER – Official Red Band Trailer (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">Kraven The Hunter</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+                 <!-- Video 4 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/hRFY_Fesa9Q" title="BAD BOYS: RIDE OR DIE – Official Trailer (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">Bad boys: Ride or Die</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>        
+         <!-- Video 5 -->
+         <div class="col">
+           <div class="ratio ratio-16x9">
+             <!-- <iframe class="video-container" src="https://www.youtube.com/embed/hDZ7y8RP5HE" title="Moana 2 | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+           </div>
+             <p class="video-title">Moana 2</p>
+                 <div class="rating-container">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                     <i class="far fa-star"></i> <!-- Empty star -->
+                 </div>    
+          </div>
+                  <!-- Video 6 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/byJ7pxxhaDY" title="Solo Leveling Season 2 -Arise from the Shadow- | OFFICIAL TRAILER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">Solo Leveling Season 2</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+                 <!-- Video 7 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/JwF7bhvnCxI" title="Kaiju No.8 | OFFICIAL TRAILER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">Kaiju No. 8</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+                 <!-- Video 8 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/u2NuUWuwPCM?si=_yMN-KjVSvx8wOeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+            <p class="video-title">Davido-Funds ft. ODUMODUBLVCK,Chike</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+                 <!-- Video 9 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/qR8-uQ5LixE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>           -->
+          </div>
+            <p class="video-title">Burna Boy-Update</p>
+                <div class="rating-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Empty star -->
+                </div>    
+         </div>
+                 <!-- Video 10 -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <!-- <iframe class="video-container" src="https://www.youtube.com/embed/pnSsgRJmsCc" title="Black Myth: Wukong - Final Trailer | PS5 Games" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+          <p class="video-title">Wukong-Black Myth</p>
+              <div class="rating-container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <!-- Empty star -->
+              </div>    
+         </div>   
+
+     </div>
+  </div> 
+</div>
+<!-----------------------------------------------------NEWS----------------------------------------------------------->
+<br><br>
+<h2 id="news">NEWS</h2>
+<div class="underline"></div>
+<div class="container-fluid mt-4">
+  <!-- News Item 1 -->
+  <div class="title mb-4">
+    <h3><a href="https://www.nbcnews.com/news/world/chinese-film-nezha-2-becomes-worlds-highest-grossing-animated-movie-rcna192753">Chinese film 'Nezha 2' becomes world’s highest-grossing animated movie</a></h3>
+      <div class="news-item">
+          <img src="Images/nezha.JPG" alt="News Thumbnail" class="news-thumbnail">
+          <p class="news-content">
+             Chinese animated blockbuster “Nezha 2” overtook Pixar’s “Inside Out 2” on Tuesday to become the highest-grossing animated film globally, according to data from ticketing platform Maoyan.
+             “Nezha 2” has amassed a total box office of 12.3 billion yuan ($1.69 billion) including pre-sales and overseas earnings, making it the eighth-highest box office film globally. 
+             Over 99% of “Nezha 2”’s box office income has come from mainland China, starkly in contrast to Hollywood films, which typically rely on a more global distribution strategy.
+          </p>
+      </div>
+  </div>
+
+  <!-- News Item 2 -->
+  <div class="title mb-4">
+    <h3><a href="https://www.nbcnews.com/pop-culture/movies/amazon-taking-control-james-bond-movie-franchise-rcna192967">Amazon is taking control of the James Bond movie franchisen</a></h3>
+      <div class="news-item">
+        <img src="Images/james.JPG" alt="News Thumbnail" class="news-thumbnail">
+        <p class="news-content">
+          Amazon MGM Studios, the tech giant's film unit, plans to take "creative control" of the James Bond series under a new deal with the franchise's longtime producers, Michael G. Wilson and Barbara Broccoli.
+          The deal will result in a "new joint venture to house the James Bond intellectual property rights, and those parties will remain co-owners of the franchise," the business partners said in a news release. When the transaction is closed, Amazon MGM Studios will "gain creative control of the James Bond franchise."
+          Amazon acquired MGM in 2022, taking over a sprawling library that includes more than 4,000 feature films and 17,000 television shows. The tech behemoth also earned the rights to distribute all the Bond movies, but the new deal solidifies the company's oversight of 007's big-screen future.
+        </p>
+      </div>
+  </div>
+
+  <!-- News Item 3 -->
+  <div class="title mb-4">
+      <h3><a href="https://www.nbcnews.com/tech/video-games/video-game-company-ea-lay-5-workforce-670-employees-rcna141052">EA to lay off 5% of workforce, or about 670 employees</a></h3>
+        <div class="news-item">
+          <img src="Images/ea.JPG" alt="News Thumbnail" class="news-thumbnail">
+          <p class="news-content">
+            Electronic Arts announced Wednesday that it will cut 5% of its workforce, part of a plan that includes reducing office space and ending work on some video games.
+            EA employed 13,400 workers as of the end of March 2023, according to its most recent annual filing with the U.S. Securities and Exchange Commission in May. That means the layoffs may affect about 670 jobs.
+            The company’s announcement marks the latest headcount reduction among video game developers in recent months, continuing a broader trend of significant downsizing across the tech industry. 
+          </p>
+        </div>
+  </div>
+
+    <!-- News Item 4 -->
+    <div class="title mb-4">
+      <h3><a href="https://www.nbcnews.com/news/us-news/former-eminem-employee-charged-leaking-unreleased-music-rcna197492">Former Eminem employee charged with leaking unreleased music </a></h3>
+        <div class="news-item">
+          <img src="Images/eminem.jpg" alt="News Thumbnail" class="news-thumbnail">
+          <p class="news-content">
+            Rapper Eminem said "significant damage was caused" and his team is "appreciative" after his former longtime employee was charged with leaking his unreleased music online.
+            Joseph Strange, a 46-year-old from Holly, Michigan, was charged with criminal infringement of copyright and interstate transportation of stolen goods after allegedly leaking the rapper’s unreleased songs, Michigan prosecutors announced Wednesday. 
+            The criminal complaint said that to date, over 25 songs have been played or distributed on the internet without Eminem’s or his label’s consent. According to the criminal complaint, the songs were originally created by Eminem between 1999 and 2018 and were in various stages of development.
+          </p>
+        </div>
+    </div>
+
+      <!-- News Item 5 -->
+  <div class="title mb-4">
+    <h3><a href="https://screenrant.com/god-of-war-amazon-show-confirmation-updates/">God of War Live Adaptation by Amazon Prime</a></h3>
+      <div class="news-item">
+        <img src="Images/gow.JPG" alt="News Thumbnail" class="news-thumbnail">
+        <p class="news-content">
+          God of War is finally getting a live-action adaptation after almost two decades of being stuck in development hell, and though it's in the early stages, there's plenty of news. The God of War video game series began in 2005, and follows the titular god, Kratos, who was tricked into killing his family by Ares. Kratos attempts to get revenge, but he must first battle through hoards of Olympian gods. The series cleverly mixes Greek and Norse mythology, and the franchise and lore are only getting deeper and more epic in scope with every installment.
+          While concrete details are few and far between when it comes to the live-action God of War cast and story, there has at least been news about who isn't playing Kratos. Producers have also promised that the series will be faithful to the source material too.        </p>
+      </div>
+  </div>
+    
+</div>
+
+<!----------------------------------------------------TRAILERS------------------------------------------------------>
+<div id="slide">
+    <h2>TRAILERS</h2>
+    <div class="underline"></div>
+    <br><br>
+  <div class="slider-container">
+    <button class="slide-buttons" onclick="prevSlide()">❮</button>
+    <iframe id="slideFrame" width="791" height="445" src="https://www.youtube.com/embed/uhUht6vAsMY" title="Superman | Official Teaser Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <button class="slide-buttons" onclick="nextSlide()">❯</button>
+  </div>
+  </div>
+
+  
+<!-----------------------------------------------Modal login--------------------------------------------------------->
+<h3 id="logs">Login for more exclusive content </h3>
+
+<button class="logbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span id="logbtnspan" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Images/avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="containerlog">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button class="loginsi" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+<!----------------------------------------------------FOOTER------------------------------------------------------->
+<footer class="footer text-white mt-4 py-3">
+  <div class="container-fluid">
+      <div class="row">
+          <!-- Left Section: About -->
+          <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>We bring you the latest news, updates, and entertainment from around the world.</p>
+          </div>
+
+          <!-- Center Section: Quick Links -->
+          <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Home</a></li>
+                  <li><a href="#news" class="text-white">News</a></li>
+                  <li><a href="#charts" class="text-white">Topping Charts</a></li>
+                  <li><a href="#" class="text-white">Contact</a></li>
+              </ul>
+          </div>
+
+          <!-- Right Section: Social Media -->
+          <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <a href="#" class="text-white me-2">Facebook</a>
+              <a href="#" class="text-white me-2">Twitter</a>
+              <a href="#" class="text-white">Instagram</a>
+          </div>
+      </div>
+
+      <!-- Bottom Section: Copyright -->
+      <div class="text-center mt-3">
+          <p class="mb-0">&copy; 2025 ILL.Inc. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------Updates read more  button---------------------------------->
+<script>
+    document.querySelectorAll(".toggle-btn").forEach((button) => {
+      button.addEventListener("click", function () {
+        const text = this.previousElementSibling;
+        text.classList.toggle("expanded");
+  
+        if (text.classList.contains("expanded")) {
+          this.textContent = "Read Less";
+        } else {
+          this.textContent = "Read More";
+        }
+      });
+    });
+</script>
+<!--------------------------------------------------Trailer slides------------------------------------------->
+<script>
+  const slides = [
+      "https://www.youtube.com/embed/KpN98z8Kf5E",
+      "https://www.youtube.com/embed/OlEqHXRrcpc",
+      "https://www.youtube.com/embed/yNN2PoilSp4",
+      "https://www.youtube.com/embed/CT2_P2DZBR0",
+      "https://www.youtube.com/embed/zTbgNC42Ops",
+      "https://www.youtube.com/embed/9cMIarrxLGs",
+      "https://www.youtube.com/embed/RqeNvZpFbhY",
+      "https://www.youtube.com/embed/CT2_P2DZBR0",
+      "https://www.youtube.com/embed/22w7z_lT6YM"
+
+  ];
+  let currentSlide = 0;
+  
+  function updateSlide() {
+      document.getElementById("slideFrame").src = slides[currentSlide];
+  }
+
+  function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      updateSlide();
+  }
+
+  function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      updateSlide();
+  }
+</script>
+
+<!----------------------- Login close ------------------------>
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
